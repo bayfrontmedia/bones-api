@@ -1,0 +1,6 @@
+# Allow all
+!*
+# Ignore everything that begins with .
+.*
+# ... except .gitignore
+!.gitignore
