@@ -68,6 +68,9 @@ The `php bones schedule:run` command must be setup to run every minute.
 If a cron job will be used to run the scheduled jobs, add a new entry to your crontab to run every minute:
 
 ```shell
+* * * * * cd /path/to/your/app && php bones schedule:run >> /dev/null 2>&1
+
+# Path to PHP binary may need to be defined
 * * * * * /path/to/php/bin cd /path/to/your/app && php bones schedule:run >> /dev/null 2>&1
 ```
 
