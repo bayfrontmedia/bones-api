@@ -96,7 +96,7 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
     private function filterOmittedFields(OrmResource $resource, array $array): array
     {
 
-        if ($this->audit_all === true || in_array(HasOmittedFields::class, Helpers::classUses($resource->getModelClassName()))) {
+        if (in_array(HasOmittedFields::class, Helpers::classUses($resource->getModelClassName()))) {
 
             /** @var HasOmittedFields $model */
             $model = $resource->getModel();
