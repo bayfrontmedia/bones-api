@@ -121,16 +121,16 @@
         },
         {
             "name": "bayfrontmedia/bones-service-api",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-api.git",
-                "reference": "fe0d5ce876d2bd2376beb0d13d28e1fdd2618392"
+                "reference": "31dba9536c1a19924cfc4fa5d991a177d9cdb3ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-api/zipball/fe0d5ce876d2bd2376beb0d13d28e1fdd2618392",
-                "reference": "fe0d5ce876d2bd2376beb0d13d28e1fdd2618392",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-api/zipball/31dba9536c1a19924cfc4fa5d991a177d9cdb3ed",
+                "reference": "31dba9536c1a19924cfc4fa5d991a177d9cdb3ed",
                 "shasum": ""
             },
             "require": {
@@ -173,9 +173,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-api/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-api/tree/v2.2.0"
+                "source": "https://github.com/bayfrontmedia/bones-service-api/tree/v2.2.1"
             },
-            "time": "2024-12-29T19:20:51+00:00"
+            "time": "2024-12-30T01:43:09+00:00"
         },
         {
             "name": "bayfrontmedia/bones-service-orm",
