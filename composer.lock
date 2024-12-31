@@ -236,16 +236,16 @@
         },
         {
             "name": "bayfrontmedia/bones-service-rbac",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-rbac.git",
-                "reference": "ab9ac459a644239fcec7583d47339cc356c9bbe7"
+                "reference": "b3cf0cf1fd6c4eec88f774da00a8d801a0137100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/ab9ac459a644239fcec7583d47339cc356c9bbe7",
-                "reference": "ab9ac459a644239fcec7583d47339cc356c9bbe7",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/b3cf0cf1fd6c4eec88f774da00a8d801a0137100",
+                "reference": "b3cf0cf1fd6c4eec88f774da00a8d801a0137100",
                 "shasum": ""
             },
             "require": {
@@ -287,9 +287,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-rbac/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.1.0"
+                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.1.1"
             },
-            "time": "2024-12-29T16:19:34+00:00"
+            "time": "2024-12-31T21:56:16+00:00"
         },
         {
             "name": "bayfrontmedia/container",
