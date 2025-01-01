@@ -37,7 +37,8 @@
     "bayfrontmedia/monolog-pdo": "^1.1.",
     "bayfrontmedia/multi-logger": "^1.2",
     "bayfrontmedia/php-http-response": "^2.0",
-    "bayfrontmedia/php-string-helpers": "^2.2"
+    "bayfrontmedia/php-string-helpers": "^2.2",
+    "bayfrontmedia/php-validator": "^4.0"
   },
   "require-dev": {
   },

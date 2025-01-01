@@ -2,6 +2,7 @@
 
 namespace App\Events;
 
+use Bayfront\ArrayHelpers\Arr;
 use Bayfront\Bones\Abstracts\EventSubscriber;
 use Bayfront\Bones\Application\Services\Events\EventSubscription;
 use Bayfront\Bones\Application\Utilities\Helpers;
@@ -25,6 +26,7 @@ use Bayfront\BonesService\Rbac\Models\UsersModel;
 use Bayfront\MultiLogger\ChannelName;
 use Bayfront\MultiLogger\Exceptions\ChannelNotFoundException;
 use Bayfront\MultiLogger\Log;
+use Bayfront\Validator\Rules\IsJson;
 
 /**
  * Events used to write to the audit log.
@@ -87,6 +89,36 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
     ];
 
     /**
+     * Sanitize resource for writing to logs.
+     *
+     * @param OrmResource $resource
+     * @param array $array
+     * @return array
+     */
+    private function sanitizeResource(OrmResource $resource, array $array): array
+    {
+
+        $array = Arr::dot($array);
+
+        foreach ($array as $k => $v) {
+
+            if (is_string($v)) {
+
+                $json = new IsJson($v);
+
+                if ($json->isValid()) {
+                    $array[$k] = json_decode($v, true);
+                }
+
+            }
+
+        }
+
+        return $this->filterOmittedFields($resource, Arr::undot($array));
+
+    }
+
+    /**
      * Filter omitted fields from log.
      *
      * @param OrmResource $resource
@@ -128,7 +160,7 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
             $this->log->channel(ChannelName::AUDIT)->info('Resource created', [
                 'action' => 'create',
                 'model' => $resource->getModelClassName(),
-                'resource' => $this->filterOmittedFields($resource, $resource->read())
+                'resource' => $this->sanitizeResource($resource, $resource->read())
             ]);
 
         }
@@ -152,9 +184,9 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
             $this->log->channel(ChannelName::AUDIT)->info('Resource updated', [
                 'action' => 'update',
                 'model' => $resource->getModelClassName(),
-                'resource' => $this->filterOmittedFields($resource, $resource->read()),
-                'previous' => $this->filterOmittedFields($previous, $previous->read()),
-                'fields' => $this->filterOmittedFields($resource, $fields)
+                'resource' => $this->sanitizeResource($resource, $resource->read()),
+                'previous' => $this->sanitizeResource($previous, $previous->read()),
+                'fields' => $this->sanitizeResource($resource, $fields)
             ]);
 
         }
@@ -176,7 +208,7 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
             $this->log->channel(ChannelName::AUDIT)->info('Resource trashed', [
                 'action' => 'trash',
                 'model' => $resource->getModelClassName(),
-                'resource' => $this->filterOmittedFields($resource, $resource->read())
+                'resource' => $this->sanitizeResource($resource, $resource->read())
             ]);
 
         }
@@ -199,8 +231,8 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
             $this->log->channel(ChannelName::AUDIT)->info('Resource restored', [
                 'action' => 'restore',
                 'model' => $resource->getModelClassName(),
-                'resource' => $this->filterOmittedFields($resource, $resource->read()),
-                'previous' => $this->filterOmittedFields($previous, $previous->read())
+                'resource' => $this->sanitizeResource($resource, $resource->read()),
+                'previous' => $this->sanitizeResource($previous, $previous->read())
             ]);
 
         }
@@ -222,7 +254,7 @@ class AuditLogEvents extends EventSubscriber implements EventSubscriberInterface
             $this->log->channel(ChannelName::AUDIT)->info('Resource deleted', [
                 'action' => 'delete',
                 'model' => $resource->getModelClassName(),
-                'resource' => $this->filterOmittedFields($resource, $resource->read())
+                'resource' => $this->sanitizeResource($resource, $resource->read())
             ]);
 
         }

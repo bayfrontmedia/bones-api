@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d7ef8de7379816fbc792161c9b4ca29",
+    "content-hash": "01a023d72675fa3feabe7b8943c63277",
     "packages": [
         {
             "name": "bayfrontmedia/array-schema",
@@ -236,16 +236,16 @@
         },
         {
             "name": "bayfrontmedia/bones-service-rbac",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-rbac.git",
-                "reference": "b3cf0cf1fd6c4eec88f774da00a8d801a0137100"
+                "reference": "99985fab0e9f84d66bda5726b4b6f620f7f98101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/b3cf0cf1fd6c4eec88f774da00a8d801a0137100",
-                "reference": "b3cf0cf1fd6c4eec88f774da00a8d801a0137100",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/99985fab0e9f84d66bda5726b4b6f620f7f98101",
+                "reference": "99985fab0e9f84d66bda5726b4b6f620f7f98101",
                 "shasum": ""
             },
             "require": {
@@ -287,9 +287,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-rbac/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.1.1"
+                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.1.2"
             },
-            "time": "2024-12-31T21:56:16+00:00"
+            "time": "2025-01-01T04:14:02+00:00"
         },
         {
             "name": "bayfrontmedia/container",
