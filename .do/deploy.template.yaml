@@ -1,0 +1,38 @@
+spec:
+  name: bones-api
+  services:
+    - environment_slug: php
+      name: bones-api
+      github:
+        branch: master
+        repo: bayfrontmedia/bones-api
+        deploy_on_push: true
+      build_command: php bones down && php bones migrate:up --force && php bones cache:save && php bones up
+      run_command: heroku-php-apache2 public/
+      envs:
+        - key: APP_KEY
+          value: "SECURE_APP_KEY"
+        - key: APP_DEBUG
+          value: "false"
+        - key: APP_ENVIRONMENT
+          value: "prod"
+        - key: APP_TIMEZONE
+          value: "UTC"
+        - key: DB_ADAPTER
+          value: "MySql"
+        - key: DB_HOST
+          value: "localhost"
+        - key: DB_PORT
+          value: "3306"
+        - key: DB_DATABASE
+          value: "database_name"
+        - key: DB_USER
+          value: "database_user"
+        - key: DB_PASSWORD
+          value: "user_password"
+        - key: DB_SECURE_TRANSPORT
+          value: "false"
+        - key: ROUTER_HOST
+          value: "example.com"
+        - key: ROUTER_ROUTE_PREFIX
+          value: "/"

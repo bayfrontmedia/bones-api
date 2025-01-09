@@ -1,0 +1,2875 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "396549bc19afd306d1f403d7065f4a58",
+    "packages": [
+        {
+            "name": "bayfrontmedia/array-schema",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/array-schema.git",
+                "reference": "99cf8cded3dd3f5ea3500ab60c0ac2a7b055d601"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/array-schema/zipball/99cf8cded3dd3f5ea3500ab60c0ac2a7b055d601",
+                "reference": "99cf8cded3dd3f5ea3500ab60c0ac2a7b055d601",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\ArraySchema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A simple library used to force a predefined \"schema\" for a given array.",
+            "homepage": "https://github.com/bayfrontmedia/array-schema",
+            "keywords": [
+                "api",
+                "array",
+                "json",
+                "php",
+                "rest"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/array-schema/issues",
+                "source": "https://github.com/bayfrontmedia/array-schema/tree/v2.1.1"
+            },
+            "time": "2024-12-23T21:35:52+00:00"
+        },
+        {
+            "name": "bayfrontmedia/bones",
+            "version": "v5.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/bones.git",
+                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/c50411fe93248fce2cb91032fe44b4a64110c3ae",
+                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/container": "^3.0",
+                "bayfrontmedia/cron-scheduler": "^2.0",
+                "bayfrontmedia/encryptor": "^2.0",
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-hooks": "^2.0",
+                "bayfrontmedia/php-http-request": "^v3.1",
+                "bayfrontmedia/php-http-response": "^2.0",
+                "bayfrontmedia/php-time-helpers": "^2.0",
+                "bayfrontmedia/route-it": "^3.1",
+                "bayfrontmedia/simple-pdo": "^5.4",
+                "bayfrontmedia/veil": "^2.1",
+                "ext-json": "*",
+                "filp/whoops": "^2.16",
+                "php": "^8.0",
+                "symfony/console": "^7.2",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Bones\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A PHP framework used to build web apps using the MVC (model-view-controller) design pattern.",
+            "homepage": "https://github.com/bayfrontmedia/bones",
+            "keywords": [
+                "Bones",
+                "framework",
+                "mvc",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/bones/issues",
+                "source": "https://github.com/bayfrontmedia/bones/tree/v5.3.2"
+            },
+            "time": "2024-12-23T22:44:22+00:00"
+        },
+        {
+            "name": "bayfrontmedia/bones-service-api",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/bones-service-api.git",
+                "reference": "c00befb51c76e9c1bbc4710ff2e4576a06624849"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-api/zipball/c00befb51c76e9c1bbc4710ff2e4576a06624849",
+                "reference": "c00befb51c76e9c1bbc4710ff2e4576a06624849",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/array-schema": "^2.1",
+                "bayfrontmedia/bones": "^5.3",
+                "bayfrontmedia/bones-service-orm": "^1.0",
+                "bayfrontmedia/bones-service-rbac": "^1.0",
+                "bayfrontmedia/leaky-bucket": "^2.2",
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-http-request": "^3.1",
+                "bayfrontmedia/php-http-response": "^2.0",
+                "bayfrontmedia/php-string-helpers": "^2.2",
+                "bayfrontmedia/php-validator": "^4.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\BonesService\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "API service to be used with the Bones framework",
+            "homepage": "https://github.com/bayfrontmedia/bones-service-api",
+            "keywords": [
+                "Bones",
+                "api",
+                "framework",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/bones-service-api/issues",
+                "source": "https://github.com/bayfrontmedia/bones-service-api/tree/v1.0.0"
+            },
+            "time": "2025-01-09T18:15:32+00:00"
+        },
+        {
+            "name": "bayfrontmedia/bones-service-orm",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/bones-service-orm.git",
+                "reference": "ee057ff3802b4c3599326d45a035de2563f0735b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-orm/zipball/ee057ff3802b4c3599326d45a035de2563f0735b",
+                "reference": "ee057ff3802b4c3599326d45a035de2563f0735b",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/bones": "^5.3",
+                "bayfrontmedia/encryptor": "^2.0",
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-sanitize": "^2.1",
+                "bayfrontmedia/php-string-helpers": "^2.2",
+                "bayfrontmedia/php-validator": "^4.0",
+                "bayfrontmedia/simple-pdo": "^5.4.2",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\BonesService\\Orm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Object-relational mapping service for the Bones framework",
+            "homepage": "https://github.com/bayfrontmedia/bones-service-orm",
+            "keywords": [
+                "Bones",
+                "database",
+                "framework",
+                "mysql",
+                "orm",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/bones-service-orm/issues",
+                "source": "https://github.com/bayfrontmedia/bones-service-orm/tree/v1.0.0"
+            },
+            "time": "2025-01-09T18:07:08+00:00"
+        },
+        {
+            "name": "bayfrontmedia/bones-service-rbac",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/bones-service-rbac.git",
+                "reference": "aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487",
+                "reference": "aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/bones": "^5.3",
+                "bayfrontmedia/bones-service-orm": "^1.0",
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-jwt": "^2.0",
+                "bayfrontmedia/php-string-helpers": "^2.2",
+                "bayfrontmedia/php-time-helpers": "^2.0",
+                "bayfrontmedia/php-validator": "^4.0",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\BonesService\\Rbac\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A multi-tenant role-based access control (RBAC) user authentication and authorization service to be used with the Bones framework",
+            "homepage": "https://github.com/bayfrontmedia/bones-service-rbac",
+            "keywords": [
+                "Authentication",
+                "Bones",
+                "authorization",
+                "framework",
+                "php",
+                "rbac"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/bones-service-rbac/issues",
+                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.0.0"
+            },
+            "time": "2025-01-09T18:11:52+00:00"
+        },
+        {
+            "name": "bayfrontmedia/container",
+            "version": "v3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/container.git",
+                "reference": "0e117eb612b83733da4f76209de4f6d54c46f40c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/container/zipball/0e117eb612b83733da4f76209de4f6d54c46f40c",
+                "reference": "0e117eb612b83733da4f76209de4f6d54c46f40c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "psr/container": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "An easy to use PSR-11 compatible dependency injection container.",
+            "homepage": "https://github.com/bayfrontmedia/container",
+            "keywords": [
+                "PSR-11",
+                "alias",
+                "container",
+                "dependency injection",
+                "di",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/container/issues",
+                "source": "https://github.com/bayfrontmedia/container/tree/v3.0.1"
+            },
+            "time": "2024-12-23T21:34:40+00:00"
+        },
+        {
+            "name": "bayfrontmedia/cron-scheduler",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/cron-scheduler.git",
+                "reference": "ff3fb0fa3679362b61e2360e2de0fe8c16fd4d29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/cron-scheduler/zipball/ff3fb0fa3679362b61e2360e2de0fe8c16fd4d29",
+                "reference": "ff3fb0fa3679362b61e2360e2de0fe8c16fd4d29",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-string-helpers": "^2.2",
+                "dragonmantank/cron-expression": "^3.4",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\CronScheduler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A flexible framework-agnostic cron job scheduler using human-readable expressions.",
+            "homepage": "https://github.com/bayfrontmedia/cron-scheduler",
+            "keywords": [
+                "cron",
+                "cronjob",
+                "crontab",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/cron-scheduler/issues",
+                "source": "https://github.com/bayfrontmedia/cron-scheduler/tree/v2.0.2"
+            },
+            "time": "2024-12-23T21:31:14+00:00"
+        },
+        {
+            "name": "bayfrontmedia/encryptor",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/encryptor.git",
+                "reference": "1a5abfc8f5b4a73a91bd365d35d769648ef164b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/encryptor/zipball/1a5abfc8f5b4a73a91bd365d35d769648ef164b2",
+                "reference": "1a5abfc8f5b4a73a91bd365d35d769648ef164b2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Encryptor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A fast, simple two-way encryption library utilizing OpenSSL.",
+            "homepage": "https://github.com/bayfrontmedia/encryptor",
+            "keywords": [
+                "decrypt",
+                "decryption",
+                "encrypt",
+                "encryption",
+                "encryptor",
+                "openssl",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/encryptor/issues",
+                "source": "https://github.com/bayfrontmedia/encryptor/tree/v2.0.1"
+            },
+            "time": "2024-12-23T21:28:44+00:00"
+        },
+        {
+            "name": "bayfrontmedia/leaky-bucket",
+            "version": "v2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/leaky-bucket.git",
+                "reference": "5c9e4fb2438c6bfa1f747d1949ed78f6c9c52c41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/leaky-bucket/zipball/5c9e4fb2438c6bfa1f747d1949ed78f6c9c52c41",
+                "reference": "5c9e4fb2438c6bfa1f747d1949ed78f6c9c52c41",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "ext-json": "*",
+                "ext-pdo": "*",
+                "league/flysystem": "^3.29",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\LeakyBucket\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Framework-agnostic throttling using the leaky bucket algorithm.",
+            "homepage": "https://github.com/bayfrontmedia/leaky-bucket",
+            "keywords": [
+                "leaky-bucket",
+                "php",
+                "rate-limit",
+                "throttle"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/leaky-bucket/issues",
+                "source": "https://github.com/bayfrontmedia/leaky-bucket/tree/v2.2.2"
+            },
+            "time": "2024-12-24T15:39:16+00:00"
+        },
+        {
+            "name": "bayfrontmedia/monolog-pdo",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/monolog-pdo.git",
+                "reference": "975b481c33f0cc364d282b59aa001539e810056f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/monolog-pdo/zipball/975b481c33f0cc364d282b59aa001539e810056f",
+                "reference": "975b481c33f0cc364d282b59aa001539e810056f",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "ext-pdo": "*",
+                "monolog/monolog": "^3.8",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\MonologPDO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Monolog handler used to write log files to a MySQL database.",
+            "homepage": "https://github.com/bayfrontmedia/monolog-pdo",
+            "keywords": [
+                "log",
+                "logger",
+                "monolog",
+                "mysql",
+                "pdo"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/monolog-pdo/issues",
+                "source": "https://github.com/bayfrontmedia/monolog-pdo/tree/v1.1.0"
+            },
+            "time": "2024-12-24T15:59:35+00:00"
+        },
+        {
+            "name": "bayfrontmedia/multi-logger",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/multi-logger.git",
+                "reference": "7fa7b1ba677f39d0ab616b5a312f0a5fac72cbfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/multi-logger/zipball/7fa7b1ba677f39d0ab616b5a312f0a5fac72cbfe",
+                "reference": "7fa7b1ba677f39d0ab616b5a312f0a5fac72cbfe",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "^3.8",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\MultiLogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "An easy-to-use library used to manage multiple Monolog channels from a single class.",
+            "homepage": "https://github.com/bayfrontmedia/multi-logger",
+            "keywords": [
+                "log",
+                "logger",
+                "monolog",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/multi-logger/issues",
+                "source": "https://github.com/bayfrontmedia/multi-logger/tree/v1.2.0"
+            },
+            "time": "2024-12-25T10:47:57+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-array-helpers",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-array-helpers.git",
+                "reference": "edb91333352e615fbe7a430981863aed4a3a1cbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-array-helpers/zipball/edb91333352e615fbe7a430981863aed4a3a1cbe",
+                "reference": "edb91333352e615fbe7a430981863aed4a3a1cbe",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\ArrayHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Helper class to provide useful array functions.",
+            "homepage": "https://github.com/bayfrontmedia/php-array-helpers",
+            "keywords": [
+                "array",
+                "function",
+                "helper",
+                "helpers",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-array-helpers/issues",
+                "source": "https://github.com/bayfrontmedia/php-array-helpers/tree/v2.0.2"
+            },
+            "time": "2024-12-23T21:06:21+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-hooks",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-hooks.git",
+                "reference": "59aa54681316f6b52c2cd9713132bf47a29520ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-hooks/zipball/59aa54681316f6b52c2cd9713132bf47a29520ea",
+                "reference": "59aa54681316f6b52c2cd9713132bf47a29520ea",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Hooks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "An easy to use hooks library for managing events and filters.",
+            "homepage": "https://github.com/bayfrontmedia/php-hooks",
+            "keywords": [
+                "action",
+                "event",
+                "filter",
+                "hooks",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-hooks/issues",
+                "source": "https://github.com/bayfrontmedia/php-hooks/tree/v2.0.1"
+            },
+            "time": "2024-12-23T20:11:06+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-http-request",
+            "version": "v3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-http-request.git",
+                "reference": "73ed4ba7b0140548b22db02fe31fbfdb474376cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-http-request/zipball/73ed4ba7b0140548b22db02fe31fbfdb474376cf",
+                "reference": "73ed4ba7b0140548b22db02fe31fbfdb474376cf",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\HttpRequest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Easily handle data from incoming HTTP requests.",
+            "homepage": "https://github.com/bayfrontmedia/php-http-request",
+            "keywords": [
+                "cookie",
+                "delete",
+                "get",
+                "head",
+                "header",
+                "http",
+                "method",
+                "options",
+                "patch",
+                "php",
+                "post",
+                "put",
+                "request",
+                "server",
+                "superglobal",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-http-request/issues",
+                "source": "https://github.com/bayfrontmedia/php-http-request/tree/v3.1.2"
+            },
+            "time": "2024-12-25T12:25:19+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-http-response",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-http-response.git",
+                "reference": "f53df406cf2ed0cf416a56e1abbccf41e16517c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-http-response/zipball/f53df406cf2ed0cf416a56e1abbccf41e16517c7",
+                "reference": "f53df406cf2ed0cf416a56e1abbccf41e16517c7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\HttpResponse\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Easily send HTTP responses.",
+            "homepage": "https://github.com/bayfrontmedia/php-http-response",
+            "keywords": [
+                "header",
+                "http",
+                "method",
+                "php",
+                "redirect",
+                "response",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-http-response/issues",
+                "source": "https://github.com/bayfrontmedia/php-http-response/tree/v2.0.3"
+            },
+            "time": "2024-12-26T19:24:36+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-jwt",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-jwt.git",
+                "reference": "b81eafa42c615d45b7f427a21c798e2f52f39fd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-jwt/zipball/b81eafa42c615d45b7f427a21c798e2f52f39fd8",
+                "reference": "b81eafa42c615d45b7f427a21c798e2f52f39fd8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\JWT\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP, conforming to RFC 7519.",
+            "homepage": "https://github.com/bayfrontmedia/php-jwt",
+            "keywords": [
+                "decode",
+                "encode",
+                "json",
+                "jwt",
+                "php",
+                "token"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-jwt/issues",
+                "source": "https://github.com/bayfrontmedia/php-jwt/tree/v2.0.1"
+            },
+            "time": "2024-12-23T20:20:25+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-sanitize",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-sanitize.git",
+                "reference": "11a0280ec554c262e3ea1711148d388f36a52097"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-sanitize/zipball/11a0280ec554c262e3ea1711148d388f36a52097",
+                "reference": "11a0280ec554c262e3ea1711148d388f36a52097",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Sanitize\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Simple class used to sanitize, filter and cast data.",
+            "homepage": "https://github.com/bayfrontmedia/php-sanitize",
+            "keywords": [
+                "Escape",
+                "cast",
+                "filter",
+                "php",
+                "sanitize",
+                "xss"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-sanitize/issues",
+                "source": "https://github.com/bayfrontmedia/php-sanitize/tree/v2.1.1"
+            },
+            "time": "2024-12-23T20:25:59+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-string-helpers",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-string-helpers.git",
+                "reference": "f3ae081fa216c8e872901378771917ac1ee8f615"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-string-helpers/zipball/f3ae081fa216c8e872901378771917ac1ee8f615",
+                "reference": "f3ae081fa216c8e872901378771917ac1ee8f615",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-mbstring": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\StringHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Helper class to provide useful string functions.",
+            "homepage": "https://github.com/bayfrontmedia/php-string-helpers",
+            "keywords": [
+                "function",
+                "helper",
+                "helpers",
+                "php",
+                "string"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-string-helpers/issues",
+                "source": "https://github.com/bayfrontmedia/php-string-helpers/tree/v2.2.1"
+            },
+            "time": "2024-12-23T20:28:11+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-time-helpers",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-time-helpers.git",
+                "reference": "cb6883332faeef0cdc5c41dce7f5fa1c67f229d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-time-helpers/zipball/cb6883332faeef0cdc5c41dce7f5fa1c67f229d5",
+                "reference": "cb6883332faeef0cdc5c41dce7f5fa1c67f229d5",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\TimeHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "Helper class to provide useful time related functions.",
+            "homepage": "https://github.com/bayfrontmedia/php-time-helpers",
+            "keywords": [
+                "date",
+                "datetime",
+                "elapsed",
+                "human",
+                "php",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-time-helpers/issues",
+                "source": "https://github.com/bayfrontmedia/php-time-helpers/tree/v2.0.1"
+            },
+            "time": "2024-12-23T20:31:18+00:00"
+        },
+        {
+            "name": "bayfrontmedia/php-validator",
+            "version": "v4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/php-validator.git",
+                "reference": "214c9ae867378290a72d1687209506f419a28fa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-validator/zipball/214c9ae867378290a72d1687209506f419a28fa7",
+                "reference": "214c9ae867378290a72d1687209506f419a28fa7",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Validator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A simple class used to validate a variety of data, and supports custom validation messages",
+            "homepage": "https://github.com/bayfrontmedia/php-validator",
+            "keywords": [
+                "numbers",
+                "php",
+                "strings",
+                "types",
+                "validate",
+                "validator",
+                "values"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/php-validator/issues",
+                "source": "https://github.com/bayfrontmedia/php-validator/tree/v4.0.2"
+            },
+            "time": "2024-12-23T20:36:17+00:00"
+        },
+        {
+            "name": "bayfrontmedia/route-it",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/route-it.git",
+                "reference": "b8e5998c869d338c63f937af768cd70b1e17d26f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/route-it/zipball/b8e5998c869d338c63f937af768cd70b1e17d26f",
+                "reference": "b8e5998c869d338c63f937af768cd70b1e17d26f",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-http-request": "^3.1",
+                "bayfrontmedia/php-http-response": "^2.0",
+                "ext-ctype": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\RouteIt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A fast, flexible router which can be used to quickly build RESTful web apps.",
+            "homepage": "https://github.com/bayfrontmedia/route-it",
+            "keywords": [
+                "api",
+                "dispatch",
+                "http",
+                "php",
+                "rest",
+                "router"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/route-it/issues",
+                "source": "https://github.com/bayfrontmedia/route-it/tree/v3.1.4"
+            },
+            "time": "2024-12-23T20:42:11+00:00"
+        },
+        {
+            "name": "bayfrontmedia/simple-pdo",
+            "version": "v5.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/simple-pdo.git",
+                "reference": "285bd16b6de94a4de4d0760b6ab6bb7cb8924114"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/simple-pdo/zipball/285bd16b6de94a4de4d0760b6ab6bb7cb8924114",
+                "reference": "285bd16b6de94a4de4d0760b6ab6bb7cb8924114",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "ext-pdo": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\SimplePdo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A simple and secure database abstraction layer which utilizes the PDO interface and supports working with multiple databases.",
+            "homepage": "https://github.com/bayfrontmedia/simple-pdo",
+            "keywords": [
+                "database",
+                "mysql",
+                "pdo",
+                "php",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/simple-pdo/issues",
+                "source": "https://github.com/bayfrontmedia/simple-pdo/tree/v5.4.3"
+            },
+            "time": "2024-12-23T20:50:33+00:00"
+        },
+        {
+            "name": "bayfrontmedia/veil",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayfrontmedia/veil.git",
+                "reference": "b724dfc37be2ead1ff4dbb5798f84dc6f1056c3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayfrontmedia/veil/zipball/b724dfc37be2ead1ff4dbb5798f84dc6f1056c3b",
+                "reference": "b724dfc37be2ead1ff4dbb5798f84dc6f1056c3b",
+                "shasum": ""
+            },
+            "require": {
+                "bayfrontmedia/php-array-helpers": "^2.0",
+                "bayfrontmedia/php-sanitize": "^2.1",
+                "erusev/parsedown": "^1.7.4",
+                "pfaciana/tiny-html-minifier": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bayfront\\Veil\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Robinson",
+                    "email": "john@bayfrontmedia.com",
+                    "homepage": "https://www.bayfrontmedia.com"
+                }
+            ],
+            "description": "A fast, lightweight, framework-agnostic PHP template engine.",
+            "homepage": "https://github.com/bayfrontmedia/veil",
+            "keywords": [
+                "engine",
+                "html",
+                "markdown",
+                "minify",
+                "php",
+                "template",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/bayfrontmedia/veil/issues",
+                "source": "https://github.com/bayfrontmedia/veil/tree/v2.1.2"
+            },
+            "time": "2024-12-23T20:59:07+00:00"
+        },
+        {
+            "name": "dragonmantank/cron-expression",
+            "version": "v3.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "8c784d071debd117328803d86b2097615b457500"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/8c784d071debd117328803d86b2097615b457500",
+                "reference": "8c784d071debd117328803d86b2097615b457500",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "webmozart/assert": "^1.0"
+            },
+            "replace": {
+                "mtdowling/cron-expression": "^1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.0",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Tankersley",
+                    "email": "chris@ctankersley.com",
+                    "homepage": "https://github.com/dragonmantank"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "support": {
+                "issues": "https://github.com/dragonmantank/cron-expression/issues",
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/dragonmantank",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-10-09T13:47:03+00:00"
+        },
+        {
+            "name": "erusev/parsedown",
+            "version": "1.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "reference": "cb17b6477dfff935958ba01325f2e8a2bfa6dab3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "support": {
+                "issues": "https://github.com/erusev/parsedown/issues",
+                "source": "https://github.com/erusev/parsedown/tree/1.7.x"
+            },
+            "time": "2019-12-30T22:54:17+00:00"
+        },
+        {
+            "name": "filp/whoops",
+            "version": "2.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/filp/whoops.git",
+                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/befcdc0e5dce67252aa6322d82424be928214fa2",
+                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0",
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.8 || ^9.3.3",
+                "symfony/var-dumper": "^4.0 || ^5.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Filipe Dobreira",
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
+                }
+            ],
+            "description": "php error handling for cool kids",
+            "homepage": "https://filp.github.io/whoops/",
+            "keywords": [
+                "error",
+                "exception",
+                "handling",
+                "library",
+                "throwable",
+                "whoops"
+            ],
+            "support": {
+                "issues": "https://github.com/filp/whoops/issues",
+                "source": "https://github.com/filp/whoops/tree/2.16.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/denis-sokolov",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-25T12:00:00+00:00"
+        },
+        {
+            "name": "graham-campbell/result-type",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Result-Type.git",
+                "reference": "3ba905c11371512af9d9bdd27d99b782216b6945"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/3ba905c11371512af9d9bdd27d99b782216b6945",
+                "reference": "3ba905c11371512af9d9bdd27d99b782216b6945",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\ResultType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                }
+            ],
+            "description": "An Implementation Of The Result Type",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Result Type",
+                "Result-Type",
+                "result"
+            ],
+            "support": {
+                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/graham-campbell/result-type",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "3.29.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/edc1bb7c86fab0776c3287dbd19b5fa278347319",
+                "reference": "edc1bb7c86fab0776c3287dbd19b5fa278347319",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem-local": "^3.0.0",
+                "league/mime-type-detection": "^1.0.0",
+                "php": "^8.0.2"
+            },
+            "conflict": {
+                "async-aws/core": "<1.19.0",
+                "async-aws/s3": "<1.14.0",
+                "aws/aws-sdk-php": "3.209.31 || 3.210.0",
+                "guzzlehttp/guzzle": "<7.0",
+                "guzzlehttp/ringphp": "<1.1.1",
+                "phpseclib/phpseclib": "3.0.15",
+                "symfony/http-client": "<5.2"
+            },
+            "require-dev": {
+                "async-aws/s3": "^1.5 || ^2.0",
+                "async-aws/simple-s3": "^1.1 || ^2.0",
+                "aws/aws-sdk-php": "^3.295.10",
+                "composer/semver": "^3.0",
+                "ext-fileinfo": "*",
+                "ext-ftp": "*",
+                "ext-mongodb": "^1.3",
+                "ext-zip": "*",
+                "friendsofphp/php-cs-fixer": "^3.5",
+                "google/cloud-storage": "^1.23",
+                "guzzlehttp/psr7": "^2.6",
+                "microsoft/azure-storage-blob": "^1.1",
+                "mongodb/mongodb": "^1.2",
+                "phpseclib/phpseclib": "^3.0.36",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.5.11|^10.0",
+                "sabre/dav": "^4.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "File storage abstraction for PHP",
+            "keywords": [
+                "WebDAV",
+                "aws",
+                "cloud",
+                "file",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "s3",
+                "sftp",
+                "storage"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/flysystem/issues",
+                "source": "https://github.com/thephpleague/flysystem/tree/3.29.1"
+            },
+            "time": "2024-10-08T08:58:34+00:00"
+        },
+        {
+            "name": "league/flysystem-local",
+            "version": "3.29.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-local.git",
+                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e0e8d52ce4b2ed154148453d321e97c8e931bd27",
+                "reference": "e0e8d52ce4b2ed154148453d321e97c8e931bd27",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "league/flysystem": "^3.0.0",
+                "league/mime-type-detection": "^1.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Local\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "Local filesystem adapter for Flysystem.",
+            "keywords": [
+                "Flysystem",
+                "file",
+                "files",
+                "filesystem",
+                "local"
+            ],
+            "support": {
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.29.0"
+            },
+            "time": "2024-08-09T21:24:39+00:00"
+        },
+        {
+            "name": "league/mime-type-detection",
+            "version": "1.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/mime-type-detection.git",
+                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/2d6702ff215bf922936ccc1ad31007edc76451b9",
+                "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "^8.5.8 || ^9.3 || ^10.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\MimeTypeDetection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frankdejonge.nl"
+                }
+            ],
+            "description": "Mime-type detection for Flysystem",
+            "support": {
+                "issues": "https://github.com/thephpleague/mime-type-detection/issues",
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-21T08:32:55+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "aef6ee73a77a66e404dd6540934a9ef1b3c855b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/aef6ee73a77a66e404dd6540934a9ef1b3c855b4",
+                "reference": "aef6ee73a77a66e404dd6540934a9ef1b3c855b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "psr/log": "^2.0 || ^3.0"
+            },
+            "provide": {
+                "psr/log-implementation": "3.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
+                "graylog2/gelf-php": "^1.4.2 || ^2.0",
+                "guzzlehttp/guzzle": "^7.4.5",
+                "guzzlehttp/psr7": "^2.2",
+                "mongodb/mongodb": "^1.8",
+                "php-amqplib/php-amqplib": "~2.4 || ^3",
+                "php-console/php-console": "^3.1.8",
+                "phpstan/phpstan": "^2",
+                "phpstan/phpstan-deprecation-rules": "^2",
+                "phpstan/phpstan-strict-rules": "^2",
+                "phpunit/phpunit": "^10.5.17 || ^11.0.7",
+                "predis/predis": "^1.1 || ^2",
+                "rollbar/rollbar": "^4.0",
+                "ruflin/elastica": "^7 || ^8",
+                "symfony/mailer": "^5.4 || ^6",
+                "symfony/mime": "^5.4 || ^6"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "elasticsearch/elasticsearch": "Allow sending log messages to an Elasticsearch server via official client",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-curl": "Required to send log messages using the IFTTTHandler, the LogglyHandler, the SendGridHandler, the SlackWebhookHandler or the TelegramBotHandler",
+                "ext-mbstring": "Allow to work properly with unicode symbols",
+                "ext-mongodb": "Allow sending log messages to a MongoDB server (via driver)",
+                "ext-openssl": "Required to send log messages using SSL",
+                "ext-sockets": "Allow sending log messages to a Syslog server (via UDP driver)",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "https://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "https://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/monolog/issues",
+                "source": "https://github.com/Seldaek/monolog/tree/3.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-12-05T17:15:07+00:00"
+        },
+        {
+            "name": "pfaciana/tiny-html-minifier",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pfaciana/tiny-html-minifier.git",
+                "reference": "9b305753a18ee6797c7cb2bfabe25ed36d454dc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pfaciana/tiny-html-minifier/zipball/9b305753a18ee6797c7cb2bfabe25ed36d454dc0",
+                "reference": "9b305753a18ee6797c7cb2bfabe25ed36d454dc0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Minifier\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jens Törnell",
+                    "email": "webblayout@gmail.com"
+                },
+                {
+                    "name": "Phil Faciana",
+                    "email": "phil@renderdev.com"
+                }
+            ],
+            "description": "Minify HTML in PHP with just a single class",
+            "keywords": [
+                "html",
+                "minifier",
+                "minify"
+            ],
+            "support": {
+                "source": "https://github.com/pfaciana/tiny-html-minifier/tree/v3.0.0"
+            },
+            "time": "2020-07-27T03:41:45+00:00"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "version": "1.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-option.git",
+                "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/e3fac8b24f56113f7cb96af14958c0dd16330f54",
+                "reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+            },
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PhpOption\\": "src/PhpOption/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                }
+            ],
+            "description": "Option Type for PHP",
+            "keywords": [
+                "language",
+                "option",
+                "php",
+                "type"
+            ],
+            "support": {
+                "issues": "https://github.com/schmittjoh/php-option/issues",
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-07-20T21:41:07+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/2.0.2"
+            },
+            "time": "2021-11-05T16:47:00+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "reference": "f16e1d5863e37f8d8c2a01719f5b34baa2b714d3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/3.0.2"
+            },
+            "time": "2024-09-11T13:17:53+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v7.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/service-contracts": "^2.5|^3",
+                "symfony/string": "^6.4|^7.0"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<6.4",
+                "symfony/dotenv": "<6.4",
+                "symfony/event-dispatcher": "<6.4",
+                "symfony/lock": "<6.4",
+                "symfony/process": "<6.4"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0|2.0|3.0"
+            },
+            "require-dev": {
+                "psr/log": "^1|^2|^3",
+                "symfony/config": "^6.4|^7.0",
+                "symfony/dependency-injection": "^6.4|^7.0",
+                "symfony/event-dispatcher": "^6.4|^7.0",
+                "symfony/http-foundation": "^6.4|^7.0",
+                "symfony/http-kernel": "^6.4|^7.0",
+                "symfony/lock": "^6.4|^7.0",
+                "symfony/messenger": "^6.4|^7.0",
+                "symfony/process": "^6.4|^7.0",
+                "symfony/stopwatch": "^6.4|^7.0",
+                "symfony/var-dumper": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Eases the creation of beautiful and testable command line interfaces",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "cli",
+                "command-line",
+                "console",
+                "terminal"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/console/tree/v7.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-12-11T03:49:26+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
+                "branch-alias": {
+                    "dev-main": "3.5-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-25T14:20:29+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
+                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-ctype": "*"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-grapheme",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
+                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
+                "reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's grapheme_* functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "grapheme",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                "reference": "3833d7255cc303546435cb650316bff708a1c75c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/3833d7255cc303546435cb650316bff708a1c75c",
+                "reference": "3833d7255cc303546435cb650316bff708a1c75c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's Normalizer class and related functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "intl",
+                "normalizer",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "reference": "60328e362d4c2c802a54fcbf04f9d3fb892b4cf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-09T11:45:10+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "e53260aabf78fb3d63f8d79d69ece59f80d5eda0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/e53260aabf78fb3d63f8d79d69ece59f80d5eda0",
+                "reference": "e53260aabf78fb3d63f8d79d69ece59f80d5eda0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "psr/container": "^1.1|^2.0",
+                "symfony/deprecation-contracts": "^2.5|^3"
+            },
+            "conflict": {
+                "ext-psr": "<1.1|>=2"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
+                "branch-alias": {
+                    "dev-main": "3.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Test/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/v3.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-09-25T14:20:29+00:00"
+        },
+        {
+            "name": "symfony/string",
+            "version": "v7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/446e0d146f991dde3e73f45f2c97a9faad773c82",
+                "reference": "446e0d146f991dde3e73f45f2c97a9faad773c82",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-intl-grapheme": "~1.0",
+                "symfony/polyfill-intl-normalizer": "~1.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "symfony/translation-contracts": "<2.5"
+            },
+            "require-dev": {
+                "symfony/emoji": "^7.1",
+                "symfony/error-handler": "^6.4|^7.0",
+                "symfony/http-client": "^6.4|^7.0",
+                "symfony/intl": "^6.4|^7.0",
+                "symfony/translation-contracts": "^2.5|^3.0",
+                "symfony/var-exporter": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "grapheme",
+                "i18n",
+                "string",
+                "unicode",
+                "utf-8",
+                "utf8"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/string/tree/v7.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-11-13T13:31:26+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v5.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/a59a13791077fe3d44f90e7133eb68e7d22eaff2",
+                "reference": "a59a13791077fe3d44f90e7133eb68e7d22eaff2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "graham-campbell/result-type": "^1.1.3",
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9.3",
+                "symfony/polyfill-ctype": "^1.24",
+                "symfony/polyfill-mbstring": "^1.24",
+                "symfony/polyfill-php80": "^1.24"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.2",
+                "ext-filter": "*",
+                "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
+            },
+            "suggest": {
+                "ext-filter": "Required to use the boolean validator."
+            },
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "5.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "https://github.com/vlucas"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-07-20T21:52:34+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozarts/assert.git",
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "reference": "11cb2199493b2f8a3b53e7f19068fc6aac760991",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan": "<0.12.20",
+                "vimeo/psalm": "<4.6.1 || 4.6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.13"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "support": {
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.11.0"
+            },
+            "time": "2022-06-03T18:03:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0",
+        "ext-pdo": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
