@@ -12,6 +12,7 @@ return [
     'debug' => App::getEnv('APP_DEBUG'),
     'environment' => App::getEnv('APP_ENVIRONMENT'), // e.g.: "dev", "staging", "qa", "prod"
     'timezone' => App::getEnv('APP_TIMEZONE'), // See: https://www.php.net/manual/en/timezones.php
+    'migrations_table' => 'migrations', // Database table used for migrations
     // Begin app-specific config
     'buckets_table' => 'buckets', // Buckets table name
     'logs_table' => 'logs', // Logs table name

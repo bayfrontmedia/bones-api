@@ -58,16 +58,16 @@
         },
         {
             "name": "bayfrontmedia/bones",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones.git",
-                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae"
+                "reference": "944a3ee9b3bd066764fc01d43e26aa83d678acbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/c50411fe93248fce2cb91032fe44b4a64110c3ae",
-                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/944a3ee9b3bd066764fc01d43e26aa83d678acbc",
+                "reference": "944a3ee9b3bd066764fc01d43e26aa83d678acbc",
                 "shasum": ""
             },
             "require": {
@@ -115,9 +115,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones/issues",
-                "source": "https://github.com/bayfrontmedia/bones/tree/v5.3.2"
+                "source": "https://github.com/bayfrontmedia/bones/tree/v5.3.3"
             },
-            "time": "2024-12-23T22:44:22+00:00"
+            "time": "2025-01-10T12:32:07+00:00"
         },
         {
             "name": "bayfrontmedia/bones-service-api",
