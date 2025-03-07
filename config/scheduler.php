@@ -1,6 +1,8 @@
 <?php
 
 /*
+ * Configuration required by the scheduler service.
+ *
  * For more information, see:
  * https://github.com/bayfrontmedia/cron-scheduler#usage
  */

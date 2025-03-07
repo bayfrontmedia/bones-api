@@ -2,6 +2,9 @@
 
 /*
  * Configuration required by the RBAC service.
+ *
+ * For more information, see:
+ * https://github.com/bayfrontmedia/bones-service-rbac/blob/master/docs/setup.md#configuration
  */
 
 use Bayfront\Bones\Application\Utilities\App;

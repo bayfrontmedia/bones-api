@@ -1,6 +1,8 @@
 <?php
 
 /*
+ * Configuration required by the router service.
+ *
  * For more information, see:
  * https://github.com/bayfrontmedia/route-it#start-using-route-it
  */

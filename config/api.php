@@ -2,6 +2,9 @@
 
 /*
  * Configuration required by the API service.
+ *
+ * For more information, see:
+ * https://github.com/bayfrontmedia/bones-service-api/blob/master/docs/setup.md#configuration
  */
 
 use Bayfront\Bones\Application\Utilities\App;

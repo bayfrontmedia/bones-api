@@ -4,6 +4,9 @@ use Bayfront\Bones\Application\Utilities\App;
 
 /*
  * Configuration required by Bones.
+ *
+ * For more information, see:
+ * https://github.com/bayfrontmedia/bones/blob/master/docs/usage/config.md
  */
 
 return [
