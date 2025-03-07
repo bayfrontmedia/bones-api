@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "396549bc19afd306d1f403d7065f4a58",
+    "content-hash": "041e4a3815f04812b5db1715360fb577",
     "packages": [
         {
             "name": "bayfrontmedia/array-schema",
@@ -58,16 +58,16 @@
         },
         {
             "name": "bayfrontmedia/bones",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones.git",
-                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae"
+                "reference": "944a3ee9b3bd066764fc01d43e26aa83d678acbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/c50411fe93248fce2cb91032fe44b4a64110c3ae",
-                "reference": "c50411fe93248fce2cb91032fe44b4a64110c3ae",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones/zipball/944a3ee9b3bd066764fc01d43e26aa83d678acbc",
+                "reference": "944a3ee9b3bd066764fc01d43e26aa83d678acbc",
                 "shasum": ""
             },
             "require": {
@@ -115,29 +115,29 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones/issues",
-                "source": "https://github.com/bayfrontmedia/bones/tree/v5.3.2"
+                "source": "https://github.com/bayfrontmedia/bones/tree/v5.3.3"
             },
-            "time": "2024-12-23T22:44:22+00:00"
+            "time": "2025-01-10T12:32:07+00:00"
         },
         {
             "name": "bayfrontmedia/bones-service-api",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-api.git",
-                "reference": "c00befb51c76e9c1bbc4710ff2e4576a06624849"
+                "reference": "12d0c265e22f0f0679f46877f5da12787ac18f7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-api/zipball/c00befb51c76e9c1bbc4710ff2e4576a06624849",
-                "reference": "c00befb51c76e9c1bbc4710ff2e4576a06624849",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-api/zipball/12d0c265e22f0f0679f46877f5da12787ac18f7a",
+                "reference": "12d0c265e22f0f0679f46877f5da12787ac18f7a",
                 "shasum": ""
             },
             "require": {
                 "bayfrontmedia/array-schema": "^2.1",
                 "bayfrontmedia/bones": "^5.3",
                 "bayfrontmedia/bones-service-orm": "^1.0",
-                "bayfrontmedia/bones-service-rbac": "^1.0",
+                "bayfrontmedia/bones-service-rbac": "^1.1",
                 "bayfrontmedia/leaky-bucket": "^2.2",
                 "bayfrontmedia/php-array-helpers": "^2.0",
                 "bayfrontmedia/php-http-request": "^3.1",
@@ -173,22 +173,22 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-api/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-api/tree/v1.0.0"
+                "source": "https://github.com/bayfrontmedia/bones-service-api/tree/v1.1.0"
             },
-            "time": "2025-01-09T18:15:32+00:00"
+            "time": "2025-03-07T21:11:56+00:00"
         },
         {
             "name": "bayfrontmedia/bones-service-orm",
-            "version": "v1.0.0",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-orm.git",
-                "reference": "ee057ff3802b4c3599326d45a035de2563f0735b"
+                "reference": "ebcd127ee071c4be11d90f62517ad4988053f127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-orm/zipball/ee057ff3802b4c3599326d45a035de2563f0735b",
-                "reference": "ee057ff3802b4c3599326d45a035de2563f0735b",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-orm/zipball/ebcd127ee071c4be11d90f62517ad4988053f127",
+                "reference": "ebcd127ee071c4be11d90f62517ad4988053f127",
                 "shasum": ""
             },
             "require": {
@@ -230,31 +230,31 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-orm/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-orm/tree/v1.0.0"
+                "source": "https://github.com/bayfrontmedia/bones-service-orm/tree/v1.0.2"
             },
-            "time": "2025-01-09T18:07:08+00:00"
+            "time": "2025-03-07T18:36:53+00:00"
         },
         {
             "name": "bayfrontmedia/bones-service-rbac",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/bones-service-rbac.git",
-                "reference": "aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487"
+                "reference": "438581f5c02deada9d138447fc6e1e5d75f514ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487",
-                "reference": "aa9fd92dbea1b83e18b4c9d70bc6dba1ccb52487",
+                "url": "https://api.github.com/repos/bayfrontmedia/bones-service-rbac/zipball/438581f5c02deada9d138447fc6e1e5d75f514ce",
+                "reference": "438581f5c02deada9d138447fc6e1e5d75f514ce",
                 "shasum": ""
             },
             "require": {
                 "bayfrontmedia/bones": "^5.3",
-                "bayfrontmedia/bones-service-orm": "^1.0",
+                "bayfrontmedia/bones-service-orm": "^1.0.2",
                 "bayfrontmedia/php-array-helpers": "^2.0",
                 "bayfrontmedia/php-jwt": "^2.0",
                 "bayfrontmedia/php-string-helpers": "^2.2",
-                "bayfrontmedia/php-time-helpers": "^2.0",
+                "bayfrontmedia/php-time-helpers": "^2.1",
                 "bayfrontmedia/php-validator": "^4.0",
                 "php": ">=8.0"
             },
@@ -287,9 +287,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/bones-service-rbac/issues",
-                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.0.0"
+                "source": "https://github.com/bayfrontmedia/bones-service-rbac/tree/v1.1.0"
             },
-            "time": "2025-01-09T18:11:52+00:00"
+            "time": "2025-03-07T21:00:39+00:00"
         },
         {
             "name": "bayfrontmedia/container",
@@ -964,16 +964,16 @@
         },
         {
             "name": "bayfrontmedia/php-time-helpers",
-            "version": "v2.0.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bayfrontmedia/php-time-helpers.git",
-                "reference": "cb6883332faeef0cdc5c41dce7f5fa1c67f229d5"
+                "reference": "76d3bf2b7e988971fbc5cf9c675138432d891f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bayfrontmedia/php-time-helpers/zipball/cb6883332faeef0cdc5c41dce7f5fa1c67f229d5",
-                "reference": "cb6883332faeef0cdc5c41dce7f5fa1c67f229d5",
+                "url": "https://api.github.com/repos/bayfrontmedia/php-time-helpers/zipball/76d3bf2b7e988971fbc5cf9c675138432d891f17",
+                "reference": "76d3bf2b7e988971fbc5cf9c675138432d891f17",
                 "shasum": ""
             },
             "require": {
@@ -1009,9 +1009,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bayfrontmedia/php-time-helpers/issues",
-                "source": "https://github.com/bayfrontmedia/php-time-helpers/tree/v2.0.1"
+                "source": "https://github.com/bayfrontmedia/php-time-helpers/tree/v2.1.0"
             },
-            "time": "2024-12-23T20:31:18+00:00"
+            "time": "2025-02-11T17:03:58+00:00"
         },
         {
             "name": "bayfrontmedia/php-validator",
@@ -1344,16 +1344,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.16.0",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2"
+                "reference": "075bc0c26631110584175de6523ab3f1652eb28e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/befcdc0e5dce67252aa6322d82424be928214fa2",
-                "reference": "befcdc0e5dce67252aa6322d82424be928214fa2",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/075bc0c26631110584175de6523ab3f1652eb28e",
+                "reference": "075bc0c26631110584175de6523ab3f1652eb28e",
                 "shasum": ""
             },
             "require": {
@@ -1403,7 +1403,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.16.0"
+                "source": "https://github.com/filp/whoops/tree/2.17.0"
             },
             "funding": [
                 {
@@ -1411,7 +1411,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-25T12:00:00+00:00"
+            "time": "2025-01-25T12:00:00+00:00"
         },
         {
             "name": "graham-campbell/result-type",

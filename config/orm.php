@@ -2,6 +2,9 @@
 
 /*
  * Configuration required by the ORM service.
+ *
+ * For more information, see:
+ * https://github.com/bayfrontmedia/bones-service-orm/blob/master/docs/setup.md#configuration
  */
 
 return [

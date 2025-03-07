@@ -1,6 +1,8 @@
 <?php
 
 /*
+ * Configuration required by the database service.
+ *
  * For more information, see:
  * https://github.com/bayfrontmedia/simple-pdo/blob/master/docs/getting-started.md#factory-setup
  */

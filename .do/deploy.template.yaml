@@ -33,6 +33,6 @@ spec:
         - key: DB_SECURE_TRANSPORT
           value: "false"
         - key: ROUTER_HOST
-          value: "example.com"
+          value: "${APP_DOMAIN}"
         - key: ROUTER_ROUTE_PREFIX
           value: "/"

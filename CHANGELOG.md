@@ -13,6 +13,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities
 
+## [1.1.0] - 2025.03.07
+
+### Added
+
+- Added ability to define migrations database table name in `app.migrations_table` config value
+
+### Changed
+
+- Modified DigitalOcean deploy template
+- Updated all dependencies
+
 ## [1.0.0] - 2025.01.09
 
 ### Added
